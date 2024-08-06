@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(120, 0, 150);
+    padding: 1opx;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.title{
+    font-size: 100px;
+    color: rgb(161, 241, 12);
+    font-family:'Times New Roman', Times, serif;
+    
+    display: flex;
+    justify-content:space-around;
+    filter: drop-shadow(29px 30px 29px orange);
+
+}
+
+.h{
+text-align: center;
+}
+
+.btn{
+    color: rgb(3, 3, 3);
+    background-color:#f4f3f6;
+    font-size: 80px;
+    height:145px;
+    width:145px;
+    font-weight: 500;
+    margin-left: 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    text-shadow: 3px 0 rgb(20, 20, 20);
+    display: inline block;
+
+
+
+}
+.btn:active{
+    transform: scale(0.96);
+}
+
+.a{
+
+    background-image: url(ima/mustang.jpeg);
+   
+}
+.s{
+    background-image: url(ima/bugatti.jpeg);
+}
+.d{
+    background-image: url(ima/cor.jpeg);
+
+}
+.f{
+    background-image: url(ima/ferrari.jpeg);
+}
+.g{
+    background-image: url(ima/hellcat.jpeg);
+}
+.h{
+    background-image: url(ima/lambo.jpeg);
+}
+.j{
+    background-image: url(ima/por.jpeg);
+}
+
+footer{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(226, 229, 40);
+    margin-top: 100px;
+    font-family:cursive;
+}
